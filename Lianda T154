@@ -1,0 +1,63 @@
+#include <stdio.h>
+void addnumber (int a, int b, int c, int d, int e);
+int getnum1 ();
+int getnum2 ();
+int getnum3 ();
+int getnum4 ();
+int getnum5 ();
+int main()
+{
+    int sub1, sub2, sub3, sub4, sub5;
+
+    sub1 = getnum1 ();
+    sub2 = getnum2 ();
+    sub3 = getnum3 ();
+    sub4 = getnum4 ();
+    sub5 = getnum5 ();
+
+    addnumber (sub1, sub2, sub3, sub4, sub5);
+
+}
+    void addnumber (int a, int b, int c, int d, int e)
+    {
+
+    int result;
+    result=a+b+c+d+e;
+    result=(a+b+c+d+e)/5;
+    printf("Your final grade: %d",result);
+}
+int getnum1()
+{
+    int sub1;
+    printf("Enter your Grades:");
+    scanf("%d",&sub1);
+    return sub1;
+}
+    int getnum2()
+    {
+        int sub2;
+    printf("Enter your Grades:");
+    scanf("%d",&sub2);
+    return sub2;
+    }
+    int getnum3()
+    {
+        int sub3;
+    printf("Enter your Grades:");
+    scanf("%d",&sub3);
+    return sub3;
+    }
+    int getnum4()
+    {
+        int sub4;
+    printf("Enter your Grades:");
+    scanf("%d",&sub4);
+    return sub4;
+    }
+    int getnum5()
+    {
+        int sub5;
+    printf("Enter your Grades:");
+    scanf("%d",&sub5);
+    return sub5;
+    }
